@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Header from "../components/Header";
 import MiniHero from "../components/MiniHero";
 import PaginationComponent from "../components/Pagination";
 import FilterBar from "../components/FilterBar";
@@ -30,7 +29,6 @@ const Shop = () => {
   );
   return (
     <>
-      <Header />
       <MiniHero page="Shop" />
       <FilterBar
         itemsPerPage={itemsPerPage}
